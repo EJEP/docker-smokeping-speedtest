@@ -1,4 +1,4 @@
-FROM linuxserver/smokeping:latest
+FROM linuxserver/smokeping:arm32v7-latest
 
 # Install speedtest-cli and it's dependencies
 RUN apk add python --no-cache \
